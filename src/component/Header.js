@@ -1,15 +1,21 @@
+import logored  from '../assets/netflixred.png';
 
 const Header = ({amountofmovies}) => {
     return (
-            <nav>
-                <div className="navbar__brand">
-                    <h1>Atom Flix</h1>
-                </div>
-                <ul>
-                    <li><a href="#"> Total movies: <span>{amountofmovies}</span>  </a></li>
-                </ul>
-            </nav>
+            <div className="parent">
+                 <nav>
+                    <div className="navbar__brand">
+                        <img src={logored} alt="netflix" />
+                    </div>
 
+                    <div className='button'>
+                        <button className='btn btn-danger'>JOIN NOW</button>
+                        <button className='btn'>SIGN UP</button>
+                        <button className='btn'>Total movies: <span>{amountofmovies}</span></button>
+                        
+                    </div>
+                </nav>
+            </div>
     )
 
 }

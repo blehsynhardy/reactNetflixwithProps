@@ -3,6 +3,8 @@ import Header from './component/Header';
 import {useState } from 'react';
 import './App.css';
 import Addmovie from './component/Addmovie';
+import Background from './component/Background';
+// import {IMG1} from './assets/'
 
 function App() {
 
@@ -10,7 +12,7 @@ function App() {
     {
         id: 1,
         movie: 'george of the jungle',
-        price : '$100'
+        price : '$100',
     },
 
     {
@@ -41,6 +43,7 @@ const addMovies = (data) => {
   return (
     <div className="App">
               <Header amountofmovies ={movies.length}/>
+              <Background />
               <Addmovie onAdd={addMovies} />
                <Movies movies={movies}/>                
     </div>
