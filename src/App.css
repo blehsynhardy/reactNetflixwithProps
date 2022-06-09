@@ -9,7 +9,6 @@
 
 body {
   max-width: 100vw;
-  color: white;
   line-height: 1.5;
 }
 
@@ -25,6 +24,7 @@ body {
   left: 0;
   margin: auto;
   width: 100%;
+  z-index: 1;
 }
 
 nav {
@@ -43,6 +43,11 @@ nav {
     width: 10rem;
 
 }
+
+.navbar__brand img:last-child {
+  display: none;
+}
+
 
 .bg-image {
   height: 100vh;

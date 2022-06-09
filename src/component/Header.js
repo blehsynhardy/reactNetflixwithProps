@@ -1,4 +1,6 @@
 import logored  from '../assets/netflixred.png';
+import letterN from '../assets/icon.webp';
+
 
 const Header = ({amountofmovies}) => {
     return (
@@ -6,6 +8,7 @@ const Header = ({amountofmovies}) => {
                  <nav>
                     <div className="navbar__brand">
                         <img src={logored} alt="netflix" />
+                        <img src={letterN} alt="netflix" />
                     </div>
 
                     <div className='button'>

@@ -28,7 +28,7 @@ const Background = () => {
             <span className='text-gray'> Creators</span> Atomicity
            </p>
 
-             <a href='#' className='btn btn-danger btn-lg'>PLAY NOW</a>
+             <a href='#' className='btn btn-danger btn-lg'>Watch Season 5</a>
             </div>
           
         </div>
