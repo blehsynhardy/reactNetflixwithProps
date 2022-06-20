@@ -3,6 +3,9 @@ import letterN from '../assets/icon.webp';
 
 
 const Header = ({amountofmovies}) => {
+
+   
+
     return (
             <div className="parent">
                  <nav>
